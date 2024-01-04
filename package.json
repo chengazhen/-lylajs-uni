@@ -1,0 +1,59 @@
+{
+  "name": "@lylajs/uni",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "watch": "tsup --watch",
+    "test": "vitest -u"
+  },
+  "keywords": [
+    "lyla",
+    "uni",
+    "uni-app",
+    "uniapp",
+    "request"
+  ],
+  "author": "azhen",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "tsup": "^7.3.0",
+    "typescript": "^5.3.3",
+    "vitest": "^0.34.6"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./mini": {
+      "import": "./dist/mini/index.js",
+      "require": "./dist/mini/index.cjs"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/index.d.ts"
+      ],
+      "mini": [
+        "./dist/mini/index.d.ts"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "@lylajs/core": "^1.7.0"
+  }
+}
