@@ -17,12 +17,6 @@
   ],
   "author": "azhen",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "tsup": "^7.3.0",
-    "typescript": "^5.3.3",
-    "vitest": "^0.34.6"
-  },
   "files": [
     "dist",
     "src"
@@ -55,5 +49,6 @@
   },
   "dependencies": {
     "@lylajs/core": "^1.7.0"
-  }
+  },
+  "yalcSig": "f173491d5ba6800bc72ebd98f20f4d91"
 }

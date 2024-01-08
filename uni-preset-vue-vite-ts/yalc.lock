@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "lylajs-uni": {
+      "signature": "f173491d5ba6800bc72ebd98f20f4d91",
+      "file": true
+    }
+  }
+}
