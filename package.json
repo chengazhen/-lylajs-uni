@@ -34,20 +34,6 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./mini": {
-      "import": "./dist/mini/index.js",
-      "require": "./dist/mini/index.cjs"
-    }
-  },
-  "typesVersions": {
-    "*": {
-      ".": [
-        "./dist/index.d.ts"
-      ],
-      "mini": [
-        "./dist/mini/index.d.ts"
-      ]
     }
   },
   "repository": {

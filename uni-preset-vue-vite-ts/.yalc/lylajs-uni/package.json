@@ -28,20 +28,6 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./mini": {
-      "import": "./dist/mini/index.js",
-      "require": "./dist/mini/index.cjs"
-    }
-  },
-  "typesVersions": {
-    "*": {
-      ".": [
-        "./dist/index.d.ts"
-      ],
-      "mini": [
-        "./dist/mini/index.d.ts"
-      ]
     }
   },
   "repository": {
@@ -50,5 +36,5 @@
   "dependencies": {
     "@lylajs/core": "^1.7.0"
   },
-  "yalcSig": "f173491d5ba6800bc72ebd98f20f4d91"
+  "yalcSig": "05a122ad3be209dcd578ef7b57f2fb36"
 }
