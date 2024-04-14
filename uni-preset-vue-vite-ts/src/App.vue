@@ -2,13 +2,6 @@
 import { onLaunch, onShow, onHide } from "@dcloudio/uni-app";
 import { lyla } from '@/http'
 
-lyla({
-  url: '/api/lyla',
-  method: 'post',
-  json: {
-    name: 'lyla'
-  }
-})
 
 onLaunch(() => {
   console.log("App Launch");

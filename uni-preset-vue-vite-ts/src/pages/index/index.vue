@@ -4,12 +4,26 @@
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
+    <div @click="getData">发送</div>
   </view>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { getRepoList } from '@/api'
+
 const title = ref('Hello')
+function getData () {
+  getRepoList({
+    status: '222'
+  }).then(res => {
+    console.log(res.json)
+  }).catch(err => {
+    console.log(err)
+  })
+}
+
+
 </script>
 
 <style>
